@@ -1,0 +1,47 @@
+@media all and (max-width: 800px) {
+
+.menu,
+.nav-options,
+.trainings,
+.instructors-pic {
+    flex-direction: column;
+}
+
+.nav-options {
+    text-align: center;
+    padding-left:0px ;
+    margin: 12px 0px;
+}
+
+.trainings div{
+    width: 60%;
+}
+
+.classes ul {
+    flex-wrap: wrap;
+}
+
+.classes ul li {
+    width: 45%;
+}
+
+.getInTouch {
+    display: block;
+}
+
+
+.about {
+    display: block;
+}
+
+
+.site-footer .sitemap ul {
+    display: inline-block;
+}
+
+.site-footer .contacts {
+    display: inline-block;
+    margin-right: 204px;
+}
+
+}

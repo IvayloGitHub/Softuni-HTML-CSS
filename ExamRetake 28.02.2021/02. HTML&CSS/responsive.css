@@ -1,0 +1,24 @@
+@media all and (max-width:600px) {
+    .navigation,
+    .navigation-list,
+    .benefits,
+    .info-section {
+        flex-direction: column;
+    }
+
+    .navigation-logo-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .header-img-wrapper {
+        display: none;
+    }
+
+    .benefit {
+        margin-bottom: 24px;
+    }
+
+    .info-section {
+        align-items: center;
+    }
+}

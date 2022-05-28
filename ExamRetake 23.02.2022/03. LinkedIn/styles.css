@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 117px;
+}
+
+.nav-logo {
+    width: 170px;
+    height: 60px;
+    
+}
+
+.nav-logo img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.nav-list-items {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.nav-list-items a {
+    color: #666;
+    font-weight: bold;
+}
+
+.nav-list-items .btn {
+    border-radius: 26px;
+    border: 1px solid #0072b1;
+    background: transparent;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #0072b1;
+    font-size: 14px;
+}
+
+.nav-list-items .btn:hover {
+    cursor: pointer;
+}
+
+.hero {
+    padding: 33px 136px;
+    position: relative;
+    display: flex;
+    margin-bottom: 66px;
+}
+
+.hero .hero-content {
+    width: 60%;
+       
+}
+
+.hero .hero-title {
+    color: #0072b1;
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.hero .hero-content form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.hero .hero-content form input {
+    padding: 12px 6px;
+}
+
+.hero .hero-content form input:first-child {
+    margin-bottom: 12px;
+}
+
+.hero .hero-content form a {
+    margin: 16px 0px 24px 0px;
+}
+
+.btn.form {
+    border-radius: 26px;
+    border: none;
+    background: #0072b1;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.btn.form:hover {
+    cursor: pointer;
+}
+
+
+.hero .hero-img {
+    position: absolute;
+    top: 28;
+    right: 0;
+    width: 43%;
+}
+
+.jobs {
+    display: flex;
+    background:#faf9f7;
+    padding: 136px;
+    gap: 131px;
+}
+
+
+.jobs .subtitle {
+    font-size: 50px;
+    font-weight: 200;
+    width: 500px;
+}
+
+.jobs .options h3 {
+    color: #646463;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.tags {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.tag {
+    border-radius: 26px;
+    padding: 10px 30px;
+    background: #e6e5e4;
+    font-weight: bold;
+    color: #5c5c5b;
+}
+
+.post-job {
+    display: flex;
+    background:#f1ece5;
+    padding: 50px 136px;
+    gap: 28px;
+    align-items: center;
+}
+
+.post-job-subtitle {
+    font-size: 40px;
+    font-weight: 200;
+    width: 450px;
+    color: #b24020;
+}
+
+.btn.post {
+    border-radius: 26px;
+    border: 1px solid #5c5c5b;
+    background: transparent;
+    padding: 10px 30px;
+    color: #5c5c5b;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.open-to-work {
+    display: flex;
+    align-items: center;
+    padding: 200px 131px;
+    gap: 130px;
+    background: #faf9f7;
+}
+
+.open-to-work-subtitle {
+    font-size: 40px;
+    font-weight: 200;
+    width: 450px;
+    color: #0072b1;
+    margin-bottom: 12px;
+}
+
+.open-to-work-text {
+    font-size: 30px;
+}
+
+.open-to-work-wrapper-img {
+    width: 400px;
+}
+
+.open-to-work-wrapper-img img {
+    width: 100%;
+}
+
+.open-to-work-content-wrapper {
+    width: 500px;
+    
+}
+
+.connect-with-people {
+    display: flex;
+    padding: 60px 136px 60px 136px;
+    gap: 186px;
+}
+
+.find-people-wrapper-img,
+.skills-wrapper-img {
+    width: 300px;
+}
+
+.find-people-wrapper-img img,
+.skills-wrapper-img img {
+    width: 100%;
+}
+
+.connect-with-people-title,
+.skills-title {
+    font-size: 46px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.btn.connect {
+    border-radius: 26px;
+    border: 1px solid #5c5c5b;
+    background: transparent;
+    padding: 10px 30px;
+    color: #5c5c5b;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.btn.connect:hover {
+    cursor: pointer;
+}
+
+.join {
+    background: url(./images/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 136px 390px 136px;   
+}
+
+.join-title {
+    font-size: 48px;
+    font-weight: 200;
+    margin-top: 40px;
+    color: #0072b1;
+    width: 843px;    
+}
+
+.btn.started {
+    border-radius: 26px;
+    border: none;
+    background: #0072b1;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.logo-wrapper-img {
+    width: 150px;
+    height: 60px;
+    position: relative;
+    top: -19px;
+}
+
+.logo-wrapper-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #faf9f7;
+    padding: 40px 0px 60px 0px;
+}
+
+.footer-col h3 {
+    margin-bottom: 12px;
+}
+
+.footer-col a {
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+}
+
+.footer-col-list li {
+    margin-bottom: 6px;
+}
+
+

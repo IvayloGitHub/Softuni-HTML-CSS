@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+    color: #495767;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 9px -1px rgb(177, 175, 175);
+    
+    width: 80%;
+    margin: 0 auto;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    align-items: center;
+    background: white;
+}
+
+.logo-wrapper {
+    max-width: 180px;
+    
+}
+
+.logo-wrapper img {
+    width: 70%;
+    margin: 0px 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0px 12px;
+    padding: 20px 0;
+    border-top:3px solid transparent;
+}
+.current {
+    border-top:3px solid #42abf8;
+}
+
+.profile {
+    background: #42abf8;
+    border-radius: 50%;
+    padding: 3px 5px;
+    position: relative;
+    top: 16px;
+    left: -8px;
+    max-height: 32px;
+    box-shadow: 1px 1px 4px -1px #42abf8;
+    
+    
+}
+
+.profile a {
+    color: white;
+}
+
+.certificates-info {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), 
+    url(./images/hero-certificates.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding: 10% 10% 5% 10%;
+    position: relative;
+    top: -64px;
+    z-index: -1;
+
+}
+
+.certicicates-info-content div {
+    background: #29394b;
+    color: white;
+    border-radius: 6px;
+    padding: 15px;
+    margin-right: 50px;
+    
+}
+
+.certicicates-info-content > p {
+    font-style: italic;
+    color: #59626d;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.certificates-info-images {
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+.certicicates-info-content h3 {
+    margin-bottom: 16px;
+    margin-top: 6px;
+}
+
+.certicicates-info-content div p {
+    margin-bottom: 18px;
+}
+
+.certificates-info-images-blue img {
+    max-height: 220px;
+}
+
+.certificates-info-images-dark img {
+    max-height: 240px;
+}
+
+.diploma {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.diploma-content {
+    background: #f4f5f7;
+    padding: 20px;
+    
+}
+
+.diploma-content p {
+    margin-bottom: 20px;
+}
+
+.diploma h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.diploma > p {
+    margin-top: 20px;
+}
+
+.apply {
+    background: linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), 
+    url(./images/sign-up-prompt-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 8px -1px grey;
+    width: 80%;
+    margin: 80px auto 20px auto;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.apply h3 {
+    font-size: 24px;
+}
+
+.apply h3,
+.apply p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-light {
+    background: white;
+    color: #42abf8;
+    margin-right: 62px;
+}
+
+.separator {
+    display: inline-block;
+    background: white;
+    position: relative;
+    top: 8px;
+    height: 24px;
+    left: -30px;
+    width: 1px;
+
+}
+
+.btn-outline {
+    background: transparent;
+    color: white;  
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #4d5a6a;
+    width: 80%;
+    margin: 50px auto 0px auto;
+    padding: 36px 0px;
+    
+}
+
+footer .footer-logo-wrapper {
+    max-width: 140px;
+
+}
+
+footer .footer-logo-wrapper img {
+    width: 90%;
+}
+
+footer p {
+    align-self: center;
+    font-size: 14px;
+    color: #d9d9d9;
+}
+
+.logo-and-copyright-wrapper {
+    display: flex;
+}
+
+.footer-links ul {
+    display: flex;
+}
+
+.footer-links ul li {
+    margin: 8px;
+}
+
+.footer-links ul li a,
+.footer-links li i {
+    color: #4d5a6a;
+}
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.nav {
+    background: #41bead;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+}
+
+.nav-logo {
+    width: 150px;
+}
+
+.nav-logo-img {
+    width: 100%;
+} 
+
+.nav-list-items {
+    display: flex;
+}
+
+.nav-list-item {
+    margin: 0px 12px;
+}
+
+.nav-list-item a {
+    color: white;
+    font-weight: bold;
+}
+
+.header-trainers {
+    background: #ffb402;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+.header-trainers-title {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.header-trainers-text {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.main-trainers {
+    display: flex;
+    padding: 80px;
+    
+}
+
+.main-trainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-trainer:nth-child(1) {
+    margin-right: 30px;
+}
+
+.main-trainer-img {
+    border-radius: 50%;
+    margin-right: 30px;
+    min-width: 150px;
+}
+
+.main-trainer-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #41bead;
+}
+
+.main-trainer-content-title {
+    color:#41bead;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.main-trainer-content-job {
+    color:#b2bad0;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.main-trainer-content-text {
+    color:#56567c;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.all-trainers {
+    padding: 100px 80px 50px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    
+}
+
+.all-trainers .main-trainer-img {
+    width: 150px;
+    height: 150px;
+    margin-right: 0px;
+    text-align: center;
+    
+}
+
+.all-trainers-trainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+
+.all-trainers .main-trainer-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.kids-team {
+    background: #66b9f8;
+    color: white;
+    text-align: center;
+    padding: 50px 100px 100px 100px;
+    border-top: 10px solid #92cdfb;
+}
+
+.kids-team-title {
+    font-size: 36px;
+}
+
+.kids-team-subtitle {
+    max-width: 74%;
+    margin: 26px auto 50px auto;
+}
+
+.kids-team-form input {
+    border: 1px solid white;
+    border-radius: 6px;
+    background: transparent;
+    padding: 20px 40px;
+    margin: 0px 10px
+    
+}
+
+.kids-team-form input::placeholder {
+    color: white;
+}
+
+.kids-team-form .submit-btn {
+    background: #ff9100;
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    margin-left: 30px;
+    box-shadow: 0px 2px 8px 1px grey;
+}
+
+footer {
+    display: flex;
+    background: #565656;
+    border-top: 10px solid #919191;
+    color: white;
+    padding: 20px 60px;
+    justify-content: space-around;
+}
+
+footer a {
+    color: white;
+}
+
+.footer-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-col li {
+    margin-bottom: 10px;
+}
+
+.footer-col .footer-col-list {
+    display: flex;
+    gap: 12px;
+    font-size: 24px;
+}
+
+
+
+

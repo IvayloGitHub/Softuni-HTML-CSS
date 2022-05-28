@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background: #66b9f8;
+    color: white;
+    min-height: 100vh;
+    padding: 60px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-articles {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.blog-articles > article {
+    background: white;
+    box-shadow: 1px 1px 4px 1px grey;
+    border-radius: 12px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content-title {
+    color: #ff9100;
+    font-size: 16px;
+    
+}
+
+.content-info {
+    color: #c5c5c5;
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+    margin:12px 0px;  
+     
+}
+
+.content-info span {
+    position: relative;
+    top: -2px;
+}
+
+.content-text {
+    color:#6d6c6c;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.btn {
+background: transparent;
+border: none;
+text-transform: uppercase;
+color: #ff9100;
+font-weight: bold;
+}
+
+.btn i {
+    margin-left:10px;
+    font-size: 14px;
+}
+
+.read-more {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    margin-top: 40px; 
+    margin-left: auto;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}

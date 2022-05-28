@@ -1,0 +1,53 @@
+@media all and (max-width: 600px) {
+    .main-nav{
+        display: none;
+    }
+
+    .hero-head {
+        background: #000;
+        color: white;
+        min-height: 930px;
+        
+    }
+
+    .hero-head h1 {
+        line-height: 2.2;
+    }
+
+    .hero-head .goal {
+        line-height: 1.8;
+    }
+
+    .wrapper {
+        text-align: center;
+        padding: 30px;
+        max-width: 100%;
+        
+    }
+
+    .wrapper .goal {
+        max-width: 100%;
+    }
+
+    .content-wrap.two-col {
+        flex-direction: column;
+        margin-top: 0px;
+        display: block;
+    }
+
+    .main-foot .wrapper {
+        flex-direction: column;
+    }
+
+    .bottom-wrap {
+        text-align: center;
+    }
+
+    .main-foot .bottom .copyright {
+        float: none;
+    }
+
+    .main-foot nav a {
+        line-height: 58px;
+    }
+}

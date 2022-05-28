@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat';
+}
+
+.about {
+    display: flex;
+    max-width: 1270px;
+    margin: 100px auto;
+    gap: 40px;
+}
+
+.about-content-benefit {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 16px;
+}
+
+.about-content-benefit-img {
+    max-width: 55px;
+
+
+}
+
+.about-content-benefit-img img {
+    width: 100%;
+}
+
+.about-content-title {
+    margin-bottom: 24px;
+}
+
+.about-content-text {
+    margin-bottom: 10px;
+}
+
+.about-content-benefits {
+    margin-top: 20px;
+}
+
+.about p,
+.about-content-benefit-text p {
+    color: #737373;
+}

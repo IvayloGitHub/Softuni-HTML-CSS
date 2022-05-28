@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+
+body {
+    font-family: 'Lato';
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.price {
+    font-family: 'Montserrat';
+}
+
+section {
+    display: flex;
+    /* align-items: center; */
+    /* width: 65%;
+    margin: 50px auto; */
+    justify-content: center;
+    
+    
+}
+
+section article {
+    box-shadow: 1px 1px 4px 0px grey;
+    margin: 100px 20px;
+}
+.benefits {
+    background: #e3f3fd;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.benefits i {
+    color: #44a9f8;
+    margin-right: 12px;
+    
+}
+
+.benefits h3 {
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: #4a5868;
+}
+
+.benefits ul li {
+    margin: 14px 0;
+    color:#6a6f72
+}
+
+.price-wrapper {
+    border: 4px solid #44a9f8;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px 116px;
+}
+
+.price-wrapper p,
+.price-wrapper span
+ {
+    color: #6a6f72;
+}
+
+.price-wrapper span {
+    margin: 14px 0px 0 4px;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 35px;
+    color: #44a9f8;
+}
+
+.price-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 38px 38px 30px 38px;
+     
+}
+
+.price-wrapper button {
+    background: #44a9f8;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 42px;
+    box-shadow: 1px 1px 4px 0px grey;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 36px
+}
+
+.price-wrapper button:hover {
+    cursor: pointer;
+}
+
+
+
+
+

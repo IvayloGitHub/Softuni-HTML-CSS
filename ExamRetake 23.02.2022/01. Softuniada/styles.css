@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calendar {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 15px 10px -1px rgb(243, 238, 238);
+}
+
+.calendar-topbar {
+    background: #ffa200;
+    color: white;
+    padding: 16px; 
+}
+
+.calendar-topbar span {
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: -4px;
+}
+
+.calendar div i {
+    font-size: 20px;
+}
+
+.event {
+    padding: 20px 20px 40px 20px;
+    border-bottom: 1px solid rgb(243, 238, 238);
+}
+
+.event .event-time {
+    display: block;
+    font-size: 12px;
+    color:#888a8c;
+    margin-bottom: 12px;
+}
+
+.event .event-title {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.event .event-desc {
+    line-height: 1.5;
+}
+
+.event-desc.second {
+    padding-bottom: 50px;
+}
+
+
+

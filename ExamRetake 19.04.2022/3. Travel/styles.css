@@ -1,0 +1,269 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+body ul li a {
+  text-decoration: none;
+}
+
+body,
+button {
+  font-family: "Helvetica", sans-serif;
+}
+
+.nav-logo-wrapper {
+  width: 200px;
+  background: linear-gradient(
+    360deg,
+    rgb(152, 106, 12) 0%,
+    rgb(178, 139, 36) 40%,
+    rgb(204, 168, 56) 100%
+  );
+  padding: 20px;
+  position: relative;
+  top: 43px;
+  z-index: 20;
+}
+
+.nav-logo-wrapper img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 80px;
+}
+
+.nav-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.nav-icons-wrapper {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-icons-wrapper li {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+  color: #445372;
+  padding: 4px 18px;
+}
+
+.nav-icons-wrapper li i {
+  font-size: 26px;
+}
+
+
+
+.nav-list li {
+    color: #445372;
+    padding: 4px 18px;
+}
+
+.nav-list a {
+  color: inherit
+ }
+
+.nav-icons-wrapper,
+.nav-list {
+  justify-content: flex-end;
+}
+
+.nav-icons-wrapper li:hover,
+.nav-list li:hover {
+    color: white;
+    background: #af7a0f;
+    cursor: pointer;
+}
+
+.shuttle {
+  background: url(./image/slider.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  
+}
+
+.shuttle-wrapper {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  color: white;
+  position: absolute;
+  width: 428px;
+  padding: 30px 20px 20px 20px;
+  top: 160px;
+  left: 199px;
+  
+}
+
+.shuttle-wrapper .shuttle-title {
+  margin-bottom: 16px;
+}
+
+.shuttle-wrapper .shuttle-text {
+  margin-bottom: 10px;
+}
+
+.btn-shuttle {
+  border: 2px solid white;
+  background: transparent;
+  color: #f9a200;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  
+}
+
+.shuttle-wrapper .btn-shuttle:hover {
+    cursor: pointer;
+    border: none;
+    background: white;  
+}
+
+.budapest-card {
+    background: linear-gradient(
+        90deg,
+        rgb(152, 106, 12) 0%,
+        rgb(178, 139, 36) 40%,
+        rgb(204, 168, 56) 100%
+      );
+      color: white;
+}
+
+.budapest-card-title {
+    font-size: 26px;
+}
+
+.budapest-card-wrapper {
+    max-width: 486px;
+    margin: 0px auto; 
+    padding: 20px 0px;
+    
+}
+
+.budapest-card-wrapper .budapest-card-title {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.budapest-card-list li {
+    margin-bottom: 12px;
+}
+
+.budapest-card-btn {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 164px;
+}
+
+.budapest-card-btn:hover {
+    cursor: pointer;
+}
+
+.see-more {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.see-more-title {
+    color: #445372;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.see-more-text {
+    margin-bottom: 20px;
+    color: #535875;
+    font-size: 18px;
+}
+
+.see-more-all {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.see-more-picture-wrapper {
+    width: 170px;
+    border-radius: 50%;   
+}
+
+.see-more-picture-wrapper img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    outline: 2px solid #56596c;
+    
+}
+
+.see-more-picture-text {
+font-size: 13px;
+margin-top: 10px;
+color: #535875;
+}
+
+.see-more-single {
+    flex-basis: 14%;
+}
+
+.newsletter-wrapper {
+    background: #b58e0f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-content-title {
+    margin-bottom: 6px;
+}
+
+.btn-sub {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-sub:hover {
+    cursor: pointer;
+}
+
+.newsletter-content {
+    margin: 22px 0px 0px 22px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+}

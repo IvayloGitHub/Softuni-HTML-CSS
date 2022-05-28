@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.softuni {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(./image/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+main {
+    min-height: 100vh;
+    background: #e9e9e9;
+    padding: 80px 290px;
+}
+
+.softuni-logo {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.softuni-wrapper {
+    display: flex;  
+    justify-content: center;
+}
+
+.softuni {
+    padding: 30px;
+    width: 100%;
+}
+
+.softuni-title {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.softuni-subtitle {
+    margin-bottom: 150px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-size: 16px;
+}
+
+.login {
+    background: white;
+    padding: 30px;
+    width: 100%;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.login input {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 0px 5px 10px;
+}
+
+.login form label:not(:first-child) {
+    margin-top: 12px;
+}
+
+form .submit {
+    background: #111;
+    border-radius: 26px;
+    padding: 12px 40px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin: 40px 12px 0px 0px;
+}
+
+form .submit:hover {
+    cursor: pointer;
+}
+
+.login form label {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.login form input::placeholder {
+    color: rgb(168, 167, 167);
+    font-size: 16px;
+}
+
+.login form a {
+    color: rgb(151, 150, 150);
+    font-size: 14px;
+}
