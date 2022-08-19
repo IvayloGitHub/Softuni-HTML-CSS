@@ -28,20 +28,26 @@
 .getInTouch {
     display: block;
 }
-
-
-.about {
-    display: block;
+    
+.map {
+   margin-bottom: 30px;
 }
 
+.site-footer .wrapper {
+   display: block;
+}
+
+.site-footer .sitemap,
+.site-footer .contacts {
+    display: inline-block;
+}
 
 .site-footer .sitemap ul {
     display: inline-block;
 }
 
-.site-footer .contacts {
-    display: inline-block;
-    margin-right: 204px;
+.site-footer .sitemap {
+    margin-right: 190px;
 }
 
 }
