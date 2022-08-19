@@ -1,0 +1,46 @@
+@media all and (max-width:600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-title {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin-top: 12px;
+    }
+
+    .header-title h1 {
+        font-size: 38px;
+    }
+
+    .choose-us ul {
+        display: block;
+    }
+
+    .choose-us ul li {
+        width: 60%;
+        margin: auto;
+    }
+
+    .blog-list {
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    }
+
+    .team-description ul {
+        flex-wrap: wrap;
+        gap: 38px;
+    }
+
+    .team-description ul li img {
+        width:220px;
+        height: 220px;
+    }
+}

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100;300;400&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(./image/image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 835px;
+}
+
+.hero-box {
+    position: absolute;
+    padding: 30px 96px 44px 20px;
+    background: transparent;
+    box-shadow: 2px 2px 6px 1px rgb(110, 109, 109);
+    top: 32px;
+    left: 51px;
+}
+
+.hero-box-title {
+    font-size: 34px;
+    max-width: 132px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid white;
+    padding-bottom: 12px;  
+    color: #363434;
+}
+
+.hero-second-box {
+    background: linear-gradient(
+        90deg,
+        rgb(158, 148, 140) 0%,
+        rgb(191, 187, 182) 40%,
+        rgb(202, 199, 198) 100%
+      );
+    padding: 0px 20px 20px 20px;
+    max-width: 336px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    top: 212px;
+    left: 738px;
+    box-shadow: 2px 2px 6px 1px rgb(110, 109, 109);
+}
+
+.hero-second-box i {
+    color: #8d8581;
+    
+}
+
+.hero-second-box-quates {
+    font-size: 74px;
+    color: #8d8581;
+    position: relative;
+    top: 40px;
+    text-shadow: 1px 1px black;
+}
+
+.second-box-text {
+    text-shadow: 1px 1px black;
+    line-height: 1.5;
+}
+
+.services {
+    display: flex;
+}
+
+.our-services {
+    flex-basis: 70%;
+    padding: 60px 60px 30px 60px;
+    background: #f2f0f3;
+}
+
+.our-services-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.our-services-benefit {
+    display: flex;
+    margin-bottom: 28px;
+    align-items: baseline;
+}
+
+.our-services-text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.our-services-benefit i {
+    margin-right: 18px;
+}
+
+.our-services-text {
+    max-width: 595px;
+    line-height: 1.5;
+}
+
+.contacts-title {
+    font-size: 36px;
+    margin-top: 62px;
+    text-transform: uppercase;
+}
+
+.contacts hr {
+    margin:6px -60px 24px -60px;
+    background: #808080;
+    height: 2px;
+    border: none;
+}
+
+.contact-details {
+    max-width: 595px;
+}
+
+.contact-details span {
+    margin-right: 9px;
+}
+
+.contact-detail-name {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+
+form .email {
+    padding: 13px 120px 13px 16px;
+    border-radius: 6px;
+    border: none;
+    background: #bab1ad;
+    margin-right: 10px;
+}
+
+form .email::placeholder {
+    color: white;
+}
+
+form .submit {
+    padding: 13px 26px;
+    border: none;
+    background:#67784d;
+    color: white;
+    border-radius: 6px;
+}
+
+form .submit:hover {
+    cursor: pointer;
+}
+
+.info {
+    flex-basis: 30%;
+    background: #bab1ad;
+    padding: 50px 20px 0px 20px;
+}
+
+.info .info-content:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.info-content-number {
+    font-size: 70px;
+    color: white;
+    font-weight: 100;
+}
+
+.info-content-text {
+    font-size: 16px;
+    color: #464444;
+    position: relative;
+    top: -10px;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.hero {
+    background: url(./images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:1349px;
+    height: 1012px;
+    margin: 0 auto;
+    display: flex;
+   
+    
+    
+}
+
+.register {
+    background: url(./images/form-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 744px;
+    
+    border-radius: 12px;
+    padding: 50px 100px 25px 30px;
+    box-shadow: 20px 14px 8px -1px grey;
+    margin: auto;
+}
+
+.register-title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.names {
+    display: flex;
+}
+
+.first, .last {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.first {
+    margin-right:11px;
+}
+
+.rest {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+form {
+    width: 65%
+}
+
+.register form label {
+    margin-top: 12px;
+    color: #818181;
+    font-size: 14px;
+}
+
+.register span {
+    color: #818181;
+    margin-left: 12px;
+}
+
+.submit {
+    background: #ae3c33;
+    border-radius: 26px;
+    padding: 12px 30px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    margin:40px 0px 20px 118px;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+form input {
+    border-radius: 26px;
+    padding: 12px;
+    border: none;
+    border: 1px solid #dfe0e0;
+    background: transparent;
+}
+
+
+
+
+
+
