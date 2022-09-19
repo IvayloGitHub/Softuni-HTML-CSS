@@ -1,0 +1,47 @@
+@media all and (max-width: 600px) {
+    * {
+        overflow-x: hidden;
+    }
+    
+    main .left-to-right article {
+        border-radius: 10%;
+        width:80%;
+        height: min-content;
+        padding: 40px;
+    }
+
+    main .left-to-right article button,
+    main section:nth-child(2) button {
+        display: none;
+    }
+
+    .left-to-right:first-child {
+        height: min-content;
+        padding-bottom: 120px;
+    }
+
+    main section:nth-child(2),
+    main section:nth-child(4) {
+        margin: 0px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    section form label input, section form textarea {
+        width: 100%;
+    }
+
+    section form label {
+        display: flex;
+    }
+
+    main section:nth-child(2) article,
+    main section:nth-child(4) article {
+        align-items: center;
+    }
+    
+}

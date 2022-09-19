@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    max-width: 1100px;
+    margin:0px auto;
+}
+
+header {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), 
+    url(./image/computer-main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 160px 60px 160px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 3px 3px black;
+}
+
+.logo-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.fab.fa-gg,
+.fas.fa-shopping-cart {
+    font-size: 24px;  
+}
+
+.logo-wrapper span,
+.cart-wrapper span {
+    font-size: 21px;
+}
+
+.header-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    font-size: 20px;
+    width: 56%;
+    margin: 0px auto;
+    margin-bottom: 60px;
+}
+
+.btn {
+    display: block;
+    margin: 0px auto;
+}
+
+.btn.buy {
+    background: #00d08e;
+    border-radius: 6px;
+    border: none;
+    color:white;
+    padding: 12px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.btn.see {
+    background: transparent;
+    border: none;
+    color: white;
+    text-shadow: 0px 3px 3px black;
+    font-size: 20px;
+}
+
+.btn.buy:hover,
+.btn.see:hover {
+    cursor: pointer;
+}
+
+.hustle {
+    display: flex;
+}
+
+.image-wrapper {
+    width:100%;
+    flex-basis: 50%;
+    height: 386px;
+}
+
+.hustle img {
+    width:100%;
+    height: 100%;
+}
+
+.hustle-benefits {
+    flex-basis: 50%;
+    padding: 30px 54px 30px 54px;
+}
+
+.hustle-benefits-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.hustle-benefits-content {
+    font-size: 20px;
+    color: #20252d;
+    margin-bottom: 28px;
+}
+
+.hustle ul li {
+    margin-bottom: 20px;
+}
+
+.hustle ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.hustle ul li i {
+    color: #00d08e;
+    margin-right: 18px;
+    font-size: 20px;
+}
+
+.hustle ul li {
+    font-size: 18px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hustle-perfect {
+    display:flex;
+}
+
+.hustle-perfect-wrapper {
+    flex-basis: 50%;
+    padding: 30px 54px;
+}
+
+.hustle-perfect-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.hustle-perfect .image-wrapper img {
+    width:100%;
+    height: 100%;
+}
+
+.hustle-perfect-first,
+.hustle-perfect-second {
+    display: flex;
+    gap:12px;
+}
+
+.hustle-perfect-first {
+    margin-bottom: 28px;
+}
+
+.image-wrap {
+    width: 100%;
+}
+
+.image-wrap img {
+    width: 50%;
+}
+
+.image-text span {
+    color: #00d08e;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.question {
+    background: #b2f1dd;
+    text-align: center;
+    padding: 30px 54px;
+}
+
+.question-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.question-wrapper-first,
+.question-wrapper-second {
+    display: flex;
+    gap:60px;
+    margin-bottom: 60px;
+}
+
+.question-for-hustle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.question-wrapper-first{
+    margin-bottom: 50px;
+}
+
+.question-answer {
+    width:90%;
+}
+
+.question a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
