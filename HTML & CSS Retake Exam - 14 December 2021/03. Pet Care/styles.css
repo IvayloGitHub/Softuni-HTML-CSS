@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@100;200;300;400;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 26px 0px;
+}
+
+.logo-wrapper {
+    width: 100%;
+}
+
+.logo-wrapper img {
+    width: 20%;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header-nav ul a {
+    color: black;
+    font-weight: bold;
+}
+
+.header-slide-wrapper {
+    position: relative;
+}
+
+.header-slide-wrapper-img{
+    width: 100%;
+    z-index: -1;
+}
+
+.header-slide-wrapper-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.header-img-dog-wrapper {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 38px;
+    left: 441px;
+}
+
+.header-img-dog-wrapper img {
+    width: 44%;
+}
+
+.header-slide-content-wrapper {
+    width: 300px;
+    z-index: 20;
+    background: transparent;
+    color: white;
+    top: 120px;
+    left: 178px;
+    position: absolute;
+}
+
+.slide-title-first {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.slide-title-second {
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+
+.header-slide-wrapper {
+    line-height: 1;
+}
+
+.slide-content {
+    font-size: 13px;
+    line-height: 1.5;
+    width: 248px;
+    margin-bottom: 14px;   
+}
+
+.btn.contact-us {
+    border: none;
+    background: white;
+    color: #eb280c;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 40px;
+    border-radius: 26px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.services {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 110px 0px 110px 0px;
+}
+
+.services-title {
+    font-size: 40px;
+}
+
+.services-content {
+    font-size: 13px;
+    color: #919193;
+    width: 486px;
+    margin: 0 auto 70px auto;
+}
+
+.services-cards {
+    display: flex;
+    gap: 18px;
+}
+
+.card {
+    border:1px solid #ffc6c2;
+    border-radius: 6px;
+    padding: 50px 30px 50px 30px;
+    position: relative;
+}
+
+.card-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card-image img {
+    width: 60%;
+}
+
+.card-title {
+    margin-bottom: 16px;
+}
+
+.card-info {
+    font-size: 13px;
+    color: #919193;
+    line-height: 1.6;
+}
+
+.card-animal-image {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 2px;
+}
+
+.card-animal-image img {
+    width: 25%;
+}
+
+.cat {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cat-image-wrapper {
+    width: 100%;
+}
+
+.cat-image-wrapper img {
+    width: 88%;
+}
+
+.cat-content-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.cat-image-wrapper{
+    flex-basis: 44%;
+}
+
+.cat-content-info {
+    flex-basis: 46%;
+}
+
+.cat-content-info {
+    padding-top: 70px;
+}
+
+.cat-title-first {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.cat-title-second {
+    font-size: 40px;
+}
+
+.cat-titles {
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.cat-text {
+    font-size: 13px;
+    color: #919193;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.btn.about-us {
+    border: none;
+    background: linear-gradient(
+        90deg,
+        rgb(241, 68, 51) 0%,
+        rgb(239, 79, 33) 40%,
+        rgb(238, 90, 10) 100%
+    );
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 40px;
+    border-radius: 26px;
+}
+
+.benefits {
+    position: relative;
+}
+
+.benefits-image-wrapper {
+    width: 100%;   
+}
+
+.benefits-image-wrapper img {
+    width: 100%;
+}
+
+.benefits-content {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 88px;
+    left: 370px;
+    width: 432px;
+}
+
+.benefits-title {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.benefits-text {
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.benefits .btn.contact-us {
+    margin-right: 10px;
+}
+
+.or {
+    font-size: 13px;
+}
+
+.telephone {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.benefits strong {
+    font-size: 13px;
+}
+
+.links-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding: 80px 0px;
+    flex-grow: 1;
+}
+
+.links-title {
+    margin-bottom: 24px;
+}
+
+.links ul {
+    line-height: 1.7;
+}
+
+.links ul a {
+    color: #7b7b7b;
+    font-size: 12px;
+}
+
+.links-logo-wrapper {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.links-logo-wrapper img {
+    width: 54%;
+}
+
+.links {
+    min-width: 185px;
+}
+
+.links.first {
+    margin-right: 30px;
+}
+
+.links.second {
+    margin-right: 26px;
+}
+
+.links.third {
+    margin-right: 20px;
+}
+
+.links.fourth ul {
+    line-height: 1.2;
+}
