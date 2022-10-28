@@ -1,0 +1,79 @@
+@media all and (max-width:600px) {
+    .banner {
+        padding: 2em 0 3em 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner h2 {
+        width: 90%;
+        font-size: 1.8em;
+    }
+
+    ul {
+        margin: 0px;
+    }
+    
+    ul.actions li {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .banner .button.special {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .wrapper > .inner {
+        width: 90%;
+    }
+
+    header.major {
+        margin-bottom: 1em;
+    }
+
+    .wrapper.special {
+        padding: 2em 0 1em 0;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature { 
+         width: 100%;
+    } 
+
+    .wrapper > .inner.narrow {
+        width: 100%;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 1em 0;
+    }
+
+    .grid-form .form-control.narrow,
+    .grid-form .form-control {
+        width: 90%;
+    }
+
+    .actions input {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .footer:before {
+        left: 8%;
+        width: 84%;
+    }
+
+    .footer {
+        padding: 2em 0 1em 0;
+    }
+}
+

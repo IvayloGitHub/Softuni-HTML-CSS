@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 1220px;
+    margin: 0px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    width: 86%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.logo-wrapper {
+    width: 100%;
+}
+
+.logo-wrapper img {
+    width: 12%;
+}
+
+nav ul {
+    display: flex;
+    gap: 12px;
+}
+
+nav li a {
+    font-size: 13px;
+    font-weight: bold;
+    color: #54546d;
+    text-transform: uppercase;
+}
+
+.fees {
+    background: #54546d;
+    position: relative;
+    text-align: center;
+    height: 314px;
+    margin-bottom: 200px;
+}
+
+.fees-title {
+    color: white;
+    padding-top: 60px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 48px;
+}
+
+.fees-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 86%;
+}
+
+.card {
+    box-shadow: 1px 1px 6px -1px grey;
+    flex-basis: 32%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card-content {
+    background: white;
+    padding: 30px 20px;
+}
+
+.card-title {
+    color: #54546d;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.card-text {
+    color: #54546d;
+    font-size: 14px;
+}
+
+.card-text.design {
+    font-size: 15px;
+    margin-bottom:48px;
+}
+
+.btn.start {
+    border:none;
+    background: #9a5dc6;  
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 14px 30px;
+    border-radius: 26px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 1px 1px 6px -1px grey;
+    margin-bottom: 10px;
+}
+
+.card-title.fundamentals {
+    margin-bottom: 20px;
+}
+
+.card-text.program-first {
+    margin-bottom: 20px;
+}
+
+.card-info {
+    background: linear-gradient(
+        90deg,
+        rgb(2, 154, 60) 0%,
+        rgb(36, 182, 91) 40%,
+        rgb(76, 215, 129) 100%
+      );
+      color: white;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+}
+
+.card-fees-wrapper {
+    background: linear-gradient(
+        90deg,
+        rgb(76, 107, 135) 0%,
+        rgb(86, 130, 170) 40%,
+        rgb(98, 155, 208) 100%
+      );
+    color: white;
+}
+
+.card-fees-wrapper.professional {
+    background: linear-gradient(
+        90deg,
+        rgb(74, 55, 165) 0%,
+        rgb(108, 91, 196) 40%,
+        rgb(141, 126, 226) 100%
+      );
+    color: white;
+}
+
+.card-fees-wrapper {
+    display: flex;
+    gap: 32px;
+    padding: 7px 0px 7px 8px;
+}
+
+.card-info {
+    padding: 18px 0px;
+}
+
+.card-info-title,
+.card-fees-title {
+    font-size: 19px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.card-info-text,
+.card-fees-text {
+    font-size: 14px;
+}
+
+.card-fees.border {
+    border-right: 1px solid white;
+    padding: 11px 10px 11px 0px;   
+}
+
+.card-fees.position {
+    padding: 11px 0px 11px 0px;
+}
+
+.calculator-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 64px;
+    left: -586px;
+}
+
+.calculator-wrapper img {
+    width: 12%;
+}
+
+.digital {
+    width: 72%;
+    margin: 0 auto 100px auto;
+}
+
+.digital-title {
+    font-size: 20px;
+    color: #54546d;
+    margin-bottom: 20px;
+}
+
+.digital-text {
+    font-size: 14px;
+    color: #565656;
+    margin-bottom: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+}
+
+td {
+    padding: 14px;
+}
+
+tr {
+    display: flex;
+}
+
+td:nth-child(1) {
+    flex-basis: 74%;
+    font-size: 15px;
+    color: #565656;
+}
+
+td:nth-child(2) {
+    flex-basis: 17%;
+}
+
+tr:nth-child(odd) {
+    background: #e6e6e6;
+}
+
+tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+td img {
+    width: 16px;
+}
+
+.financial-help-title {
+    font-size: 20px;
+    color: #54546d;
+    margin-bottom: 20px;
+}
+
+.article-info-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.financial-help {
+    width: 86%;
+    margin: 0px auto 120px auto;
+}
+
+.financial-help-text {
+    font-size: 14px;
+    color: #565656;
+}
+
+.financial-help-text a {
+    text-decoration: none;
+    color: #565656;
+}
+
+.financial-help-content p:nth-child(1){
+    margin-bottom: 20px;
+}
+
+.financial-help-content {
+    flex-basis: 68%;
+}
+
+.postbank-logo-wrapper {
+    width: 28%;
+}
+
+.postbank-logo-wrapper img {
+    width: 100%;
+}
+
+footer {
+    background: #54546d;
+    text-align: center;
+    color: #908fab;
+    padding: 30px 0px;
+}
+
+
+
