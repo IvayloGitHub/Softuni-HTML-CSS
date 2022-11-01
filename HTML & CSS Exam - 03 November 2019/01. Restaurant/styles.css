@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 1224px;
+    margin: 0 auto;
+}
+
+.restaurant {
+    background: #ffd9b0;
+    padding: 36px 200px;
+}
+
+.restaurant-content {
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.restaurant-img-wrapper {
+    width: 100%;
+}
+
+img {
+    width: 58%;
+}
+
+.restaurant-form-wrapper {
+    background: #111;
+    color: white;
+    text-align: center;
+    flex-basis: 42%;
+}
+
+.reastaurant-title {
+    font-size: 16px;
+    margin-top: 56px;
+    margin-bottom: 36px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 274px;
+    margin: 0 auto;
+}
+
+form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 0px;
+}
+
+input::placeholder {
+    color: #999;
+    font-size: 11px;
+}
+
+.btn.book-now {
+    align-self: flex-start;
+    background: #edb77d;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

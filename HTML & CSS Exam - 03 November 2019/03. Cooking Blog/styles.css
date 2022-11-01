@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gelasio', sans-serif;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+nav {
+    background: #e6e3de;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 36px 16px 20px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 22px;
+}
+
+.nav-menu a {
+    color: #554938;
+}
+
+nav h2 a {
+    text-decoration: none;
+    color: #554938;
+}
+
+.log-in-wrapper {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.btn.log-in {
+    border: none;
+    background: #554938;
+    color: white;
+    padding: 6px 10px;
+    font-size: 11px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.log-in-wrapper i {
+    font-size: 13px;
+}
+
+.crave {
+    background: url(./Requirements-and-Resources/Media/craving.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 122px;
+    height: 416px;
+}
+
+.crave h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.crave input {
+    width: 322px;
+    padding: 8px 8px 8px 0px;
+    background: linear-gradient(rgb(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    border: none;
+}
+
+.crave input::placeholder {
+    margin-left:8px;
+}
+
+.christmas {
+    background: url(./Requirements-and-Resources/Media/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    height: 1420px;
+}
+
+
+.cocktail-wrapper img {
+    width: 49%;
+}
+
+.cocktail-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.cocktail-content {
+    background: #e6e3de;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.cocktail-title {
+    font-size: 28px;
+    margin-top: 174px;
+}
+
+.cocktail-text {
+    font-weight: bold;
+    font-size: 20px;  
+    margin-bottom: 14px;
+}
+
+.btn.view {
+    border: none;
+    background: #554938;
+    color: white;
+    padding: 8px 10px;
+    font-size: 11px;
+}
+
+.cookies-wrapper img {
+    width: 49%;
+}
+
+.cookies-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.cookies-content {
+    background: #e6e3de;
+    text-align: center;
+    padding: 0px;
+    flex-basis: 30%;
+}
+
+.cookies-title {
+    font-size: 28px;
+    margin-top: 174px;
+}
+
+.cookies-text {
+    font-weight: bold;
+    font-size: 20px;  
+    margin-bottom: 14px;
+}
+
+.toolbox-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolbox-title {
+    background: linear-gradient(rgb(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    padding: 6px 22px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.cards {
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.card-image-wrapper {
+    width: 100%;
+}
+
+.card-image-wrapper img {
+    width: 100%;
+}
+
+.card {
+    flex-basis: 14%;
+    background: linear-gradient(rgb(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+}
+
+.card p {
+    text-align: center;
+    font-style: italic;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.btn.shop-now {
+    border: none;
+    background: #db4e35;
+    color: white;
+    padding: 8px 76px;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: linear-gradient(rgb(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: -77px;
+
+}
+
+footer ul {
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+    color: #131515;
+}
+
+footer ul a {
+    color: #131515;
+}
+
+footer ul li:not(:last-child) {
+    border-right:1px solid #848585;
+    padding-right: 6px;
+}
+
