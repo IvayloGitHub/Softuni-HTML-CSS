@@ -122,6 +122,10 @@ nav li a {
     margin-bottom: 10px;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .card-title.fundamentals {
     margin-bottom: 20px;
 }
